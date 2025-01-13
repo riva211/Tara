@@ -14,7 +14,7 @@ const RedirectTimer = () => {
       return () => clearInterval(timer);
     } else {
       // Redirect when countdown reaches 0
-      window.location.href = 'https://rivamakhani.netlify.app/';
+      window.location.href = 'https://bhaikishaadi.vercel.app/;
     }
   }, [countdown]);
 
@@ -22,7 +22,7 @@ const RedirectTimer = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="p-8 bg-white rounded-lg shadow-md">
         <h1 className="text-3xl font-bold text-gray-800 mb-4">
-          Redirecting to Google...
+          Redirecting to Tara...
         </h1>
         <p className="text-xl text-gray-600">
           You will be redirected in {countdown} seconds
@@ -33,3 +33,7 @@ const RedirectTimer = () => {
 };
 
 export default RedirectTimer;
+
+
+// 8980797080 --> sanna 
+// 9909424245 --> diviang 
