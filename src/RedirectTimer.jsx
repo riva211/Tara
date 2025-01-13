@@ -14,7 +14,7 @@ const RedirectTimer = () => {
       return () => clearInterval(timer);
     } else {
       // Redirect when countdown reaches 0
-      window.location.href = 'https://bhaikishaadi.vercel.app/;
+      window.location.href = 'https://bhaikishaadi.vercel.app/';
     }
   }, [countdown]);
 
