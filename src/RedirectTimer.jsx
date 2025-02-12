@@ -14,7 +14,7 @@ const RedirectTimer = () => {
       return () => clearInterval(timer);
     } else {
       // Redirect when countdown reaches 0
-      window.location.href = 'https://www.figma.com/proto/2iK5aqtj1nUFcJt7rPE4nf/Untitled?node-id=1-45&p=f&t=nSRJsd47uZELtMlk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A45';
+      window.location.href = 'https://bhaikishaadi.vercel.app/';
     }
   }, [countdown]);
 

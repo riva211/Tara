@@ -9,8 +9,8 @@ const RSVPButton = () => {
       description: 'Join us for our special event! RSVP confirmed.',
       location: 'Event Venue',
       // Setting time to 2 PM - 5 PM on Feb 9th, 2025
-      startTime: '20250209T140000',
-      endTime: '20250209T170000'
+      startTime: '20250217T140000',
+      endTime: '20250218T170000'
     };
 
     // Create Google Calendar URL
